@@ -36,21 +36,23 @@ console.log(addThreeNums(secondArray[0], secondArray[1], secondArray[2]));
 // While this does work, it is much too convoluted for this excerise. 
 
 // // EX 3:
-// func makeFreshPesto(){
-//   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-//   console.log("Pulse basil and pine nuts");
-//   console.log("Add garlic and cheeses");
-//   console.log("Slowly pour in oil");
-//   console.log("Season");    }
+function makeFreshPesto(){
+   var steps = "Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper\nPulse basil and pine nuts\nAdd garlic and cheeses\nSlowly pour in oil \nSeason";
+   return steps
+}
 
-// makeFreshPesto();
-
+console.log(makeFreshPesto());
+// First, I changed func to function. Then I took out all of the console.logs.
+// I added the variable var = steps and reasearched "printing new lines javascript" which I then 
+// added to the code using \n. Lastly, I console.logged makeFreshPesto to print to the log.
 
 // //  EX 4:
-// function average(num1, num2) 
-//   {
-// var sum = num1 + num2;
-//     var avg = sum / 2;
+function average(num1, num2) 
+  {
+var sum = num1 + num2;
+    var avg = sum / 2;
 
-// return avg
-//   }
+return avg
+  }
+
+  // First, I moved the { up to line
