@@ -8,10 +8,14 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+function askForName() { 
+  return "Hello, what is your name?" 
+}
 
-askForName()
-
+console.log(askForName());
+// I first moved the console.log("Hello, what is your name?") down to line 12 for better readability and correct formatting. 
+// I then removed the console.log and changed it to return for the same reasons.
+// I then added console.log in fron of askForName(); in order to call and print it to the console.
 
 // EX 2:
 function addThreeNums(first, second, third) {
@@ -19,26 +23,34 @@ var sum = first + second + third
 return sum;
       }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+
+// I added console.log in front of the addThreeNums to print them to the console.log. If I wanted to reference the numbers
+// (1, 2, 3) or (4, 2, 7) multiple times, I could make them into an array and call them instead. For example:
+var firstArray = [1, 2, 3]
+var secondArray = [4, 2, 7]
+
+console.log(addThreeNums(firstArray[0], firstArray[1], firstArray[2]));
+console.log(addThreeNums(secondArray[0], secondArray[1], secondArray[2]));
+// While this does work, it is much too convoluted for this excerise. 
+
+// // EX 3:
+// func makeFreshPesto(){
+//   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
+//   console.log("Pulse basil and pine nuts");
+//   console.log("Add garlic and cheeses");
+//   console.log("Slowly pour in oil");
+//   console.log("Season");    }
+
+// makeFreshPesto();
 
 
-// EX 3:
-func makeFreshPesto(){
-  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-  console.log("Pulse basil and pine nuts");
-  console.log("Add garlic and cheeses");
-  console.log("Slowly pour in oil");
-  console.log("Season");    }
+// //  EX 4:
+// function average(num1, num2) 
+//   {
+// var sum = num1 + num2;
+//     var avg = sum / 2;
 
-makeFreshPesto();
-
-
-//  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
-
-return avg
-  }
+// return avg
+//   }
