@@ -1,6 +1,7 @@
 // SECTION 1: Calling methods on string or integer objects.
 // Run each line of code below (either from this file or in dev tools).
-// Then, in a comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've learned in this lesson so far.
+// Then, in a comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've learned 
+//in this lesson so far.
 
 // EXAMPLE
 // The toLowerCase() method is called on the string "Hello World"
@@ -8,13 +9,19 @@
 // The return value is "hello world"
 "Hello World".toLowerCase();
 
-
+// The includes() method is called on the string "Hello World"
+// An arguement "Hello" is passed so that if the string attached to includes() includes "Hello" , then it will be classified 
+// as true. The return value is "Hello World"
 "Hello World".includes("Hello");
 
-
+// The endsWith() method is called on the string "Hello"
+// An arguement "Hello" is passed so that if the string attached to endsWith() ends with "Hello" , then it will be classified 
+// as true. The return value is false since this will be classified as false.
 "Hello World".endsWith("Hello");
 
-
+// The endsWith() method is called on the string "rld"
+// An arguement "Hello" is passed so that if the string attached to endsWith() ends with "rld" , then it will be classified 
+// as true. The return value is "Hello World"
 "Hello World".endsWith("rld");
 
 
