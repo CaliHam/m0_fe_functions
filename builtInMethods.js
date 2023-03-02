@@ -61,3 +61,16 @@ console.log(drink.repeat(5));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+var cats = ["Pepper", "Kylo", "Maisy"]
+var ages = [5, 3, 10]
+
+// The copyWithin() method is called on the array cats which stores the strings "Pepper", "Kylo", "Maisy"
+// The copyWithin() method returns the array after it copies to index 0 the element at index 2. 
+// The console.log() statement printes the return value of copyWithin() method ([ 'Maisy', 'Kylo', 'Maisy' ]) to the console.
+console.log(cats.copyWithin(0, 2));
+
+// The shift() method is called on the array ages which stores the numbers 5, 3, 10
+// The shift() method removes the element at index position 0.
+// The console.log() statement prints the removed element of the array with the shift method (5) to the console.
+console.log(ages.shift());
