@@ -47,12 +47,12 @@ console.log(makeFreshPesto());
 // added to the code using \n. Lastly, I console.logged makeFreshPesto to print to the log.
 
 // //  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
-
-return avg
+function average(num1, num2){
+  var sum = num1 + num2;
+  var avg = sum / 2;
+  return avg
   }
-
-  // First, I moved the { up to line
+console.log(average(16, 4));
+  // First, I moved the { up to line 50 for readability and correct formatting. Then I indented
+  // line 51 for the same reason. I moved "return avg" to line 53 to match lines 51 and 52.
+  // Lastly, I console.logged the function and tested it with multiple numbers to get the average.
