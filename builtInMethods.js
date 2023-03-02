@@ -40,6 +40,20 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+// ANSWER
+// The charAt() method is called on the wood variable, which stores the object "Birch"
+// The charAt() method returns the character at the specified index position passed in the argument. 
+// The return value is c because the letter c is at the 3 index position in "Birch"
+// The console.log() statements prints the return value of the charAt() method (c) to the console.
+var wood = "Birch"
+console.log(wood.charAt(3));
+
+// The repeat() method is called on the drink variable, which stores the object "water"
+// The repeat() method returns the string "water" repeated the number of times passed in the argument. 
+// The return value is water 5 times.
+// The console.log() statements prints the return value of the repeat() method (waterwaterwaterwaterwater) to the console.
+var drink = "water"
+console.log(drink.repeat(5));
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
